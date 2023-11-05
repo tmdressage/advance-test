@@ -1,0 +1,180 @@
+.admin-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.search__content {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+    border: solid 1px #111;
+}
+
+.category__content {
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+
+.search-form__name_gender,
+.search-form__create_at,
+.search-form__email {
+    display: flex;
+    margin-top: 13px;
+}
+
+
+.search-form__item-title {
+    width: 140px;
+    margin: 10px 0px 0px 20px;
+}
+
+
+.search-form--radiobutton {
+    margin-top: 10px;
+}
+
+.form__input--radiobutton {
+    width: 560px;
+    text-align: left;
+}
+
+label {
+    margin-right: 20px;
+}
+
+input[type="radio"] {
+    position: relative;
+    margin-right: 10px;
+    top: 2px;
+}
+
+.search-form__item {
+    width: 20%;
+    margin: 0px 20px 0px 20px;
+}
+
+.search-form__item-input {
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.search-form__button {
+    margin-top: 20px;
+    width: 10%;
+    margin: 0 auto;
+}
+
+.search-form__button-submit {
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.reset__button {
+    text-align: center;
+}
+
+.reset__button-button {
+    outline: none;
+    border: none;
+    background: none;
+    color: blue;
+    border-bottom: 1px solid;
+}
+
+.line {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.category-table {
+    margin: 15px auto;
+    width: 100%;
+    text-align: left;
+}
+
+.category-table__inner {
+    width: 100%;
+}
+
+.category-table__row {
+    border-bottom: 1px solid #ddd;
+}
+
+.category-table__header {
+    padding: 12px;
+    width: 20%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.category-table__item:first-of-type {
+    padding: 12px;
+    width: 90%;
+}
+
+.delete-form__button {
+    margin-left: auto;
+    width: 50px;
+}
+
+.delete-form__button-submit {
+    padding: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    background: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+.page {
+    margin-top: 30px;
+}
+
+.pagination {
+    display: flex;
+    margin-left: 88%;
+}
+
+.page-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    font-size: 13px;
+    color: #111;
+    font-weight: bold;
+    transition: all 0.15s linear;
+    border: solid 0.5px #111;
+}
+
+.page-item.isActive {
+    background: #111;
+    color: #fff;
+    pointer-events: none;
+}
+
+.page-item:not(.isActive):hover {
+    background: #111;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}

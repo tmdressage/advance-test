@@ -1,0 +1,159 @@
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.contact-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+}
+
+.form__label--required {
+    color: #ff0000;
+    margin-left: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+}
+
+.form__error_name {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+    padding-left: 40px;
+    margin-top: 30px;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__input--text input {
+    padding: 10px;
+    width: 560px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.form__input--text_name input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.form__input--text_name {
+    height: 40px;
+    width: 600px;
+    justify-content: space-between;
+}
+
+
+.form__input--text {
+    height: 40px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+li {
+    width: 250px;
+}
+
+.form__input--textarea textarea {
+    padding: 10px;
+    height: 100px;
+    width: 560px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+}
+
+
+.form__button {
+    margin-top: 30px;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.example {
+    font-size: 13px;
+    color: grey;
+    position: relative;
+    margin-top: -10px;
+    text-align: left;
+}
+
+.text-example {
+    padding-left: 20px;
+}
+
+.form__input--radiobutton {
+    width: 560px;
+    text-align: left;
+
+}
+
+label {
+    margin-right: 20px;
+}
+
+input[type="radio"] {
+    position: relative;
+    margin-right: 10px;
+    top: 2px;
+}
+
+.post {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 20px; 
+}
+
+.postcode-example {
+    padding-left: 50px;
+}
+
+.form__input--text_postcode input {
+    width:520px;
+    height:40px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.form__input--text_postcode {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
